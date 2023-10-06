@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAYGRAPHIX: A design agency that brings out the best design for your projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-image: url(./18262593_5968949.jpg);
+        background-repeat:repeat-y;
+        background-size: cover;
+        height: 100vh;  
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .link{
+        font-size: 15px;
+        text-align: right;
+        margin: 10px;
+    }
+    #name{
+        color: #952323;
+        border: 10px solid #DAD4B5;
+        border-radius: 50px;
+        text-align: center;
+        padding: 10px;
+        font-size:40px;
+        font-family: 'Roboto',sans-serif;
+        
+    }
+    
+    .text{
+        font-size:20px;
+        margin: 10px;
+        margin-bottom: 20px;
+
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        float:left;
+        margin: 10px;
+
+    }
+    #jerry{
+        float: none;
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+        
+    }
+    .name{
+        color: #952323;
+        font-weight: 800;
+    }
+    .space{
+        padding: 15px;
+    }
+    #us{
+        margin-top: 0px;
+        font-size: 30px;
+        text-align: center;
+        color: brown;
+    }
+    @media (max-width:480px){
+        #name{
+            font-size: 20px;
+        }
+        #jerry{
+            width: 200px;
+            height: 200px;
+        }
+        .text{
+            font-size: 15px;
+        }
+        .space{
+            padding: 5px;
+        }
+        img{
+            display: block;
+            margin: auto;
+            float: none;
+            margin-bottom: 5px;
+        }
+    }
+    @media (min-width:481px) and (max-width:1200px){
+        .link{
+            font-size: 20px;}
+        #name{
+            font-size: 30px;
+        }
+        #jerry{
+            width: 300px;
+            height: 300px;
+        }
+        .text{
+            font-size: 20px;
+        }
+        .space{
+            padding: 15px;
+        }
+        img{
+            display: inline-block;
+            margin: 10px;
+            height: 250px;
+            width: 250px;
+        }
+        .wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    @media (min-width:1201px) and (max-width:1600px){
+        .link{
+            font-size: 25px;}
+        #name{
+            font-size: 40px;
+        }
+        #jerry{
+            width: 400px;
+            height: 400px;
+        }
+        .text{
+            font-size: 30px;
+        }
+        .space{
+            padding: 20px;
+        }
+        img{
+            height: 300px;
+            width: 300px;
+            display: inline-block;
+            margin: 10px;
+        }
+        .wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+       
+    }
+    @media (min-width:1600px){
+        .link{
+            font-size: 25px;}
+        #name{
+            font-size: 40px;
+        }
+        #jerry{
+            width: 400px;
+            height: 400px;
+        }
+        .text{
+            font-size: 30px;
+        }
+        .space{
+            padding: 20px;
+        }
+        img{
+            height: 400px;
+            width: 400px;
+            display: inline-block;
+            margin: 10px;
+        }
+        .wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+       
+    }
+</style>
+<body>
+    <div class="link">
+        <a href="./jerry.html">Home</a>
+        <a href="https://wa.link/drrxj6">Contact me</a>
+    </div>
+    <div>
+        <h1 id="name">JAYGRAPHIX</h1>
+    </div>
+    <div>
+        <img id="jerry" src="./jerry.jpg" alt="jerry image" />
+        <p class="text"><span class="space"></span>Hi! I'm <span class="name">Alalade Jeremiah</span>, a seasoned graphics designer with three years of experience, specializing in transforming ideas into visually stunning designs. 
+            I believe in the power of design to <span class="name">elevate brands and captivate audiences</span>, combining innovation with strategy. </p>
+        <p class="text"><span class="space"></span>My work has earned a <span class="name">top 5 rating</span> from clients I have worked with, showcasing a commitment to excellence. 
+            Let's collaborate to turn your design dreams into a visual reality that speaks volumes.<a class="link" href="https://instagram.com/alaladejeremiah?igshid=OGQ5ZDc20Dk2ZA==">You can check my IG handle for more designs.</a>   
+            Welcome to the world of <span class="name">JAYGRAPHIX,</span> where design meets distinction.</p>
+    </div>
+    <hr/>
+    <br/>
+        <p id="us">Check-out my designs</p>
+        <div class="wrapper">
+            <div class="wrapper-holder"> 
+                <img src="./New Month EA.jpg"/>  
+            </div>
+            <div> 
+                <img class="wrapper-holder" src="./Elite Academy.jpg"/>  
+            </div>
+        </div>
+        <div class="wrapper">
+            <div> 
+                <img class="wrapper-holder" src="./New Month Flyer FST OSUN.jpg"/>  
+            </div>
+            <div> 
+                <img class="wrapper-holder" src="./Independence Offer.jpg"/>  
+            </div>
+        </div>
+</body>
+</html>
